@@ -1,0 +1,70 @@
+Steps to flash AQ firmware for AQ PHY on u-boot
+-----------------------------------------------
+
+Required input images:
+---------------------
+Software to programm PHY firmware
+  File Name:aq_programming.bin
+PHY firmware
+
+LX2160A-RDB boards
+------------------
+AQR107(XFI):
+        AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-USXGMII_ID24109_VER965.cld
+AQR107(USXGMII):
+        AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-USXGMII_ID24109_VER965.cld
+
+LX2160A-QDS boards
+------------------	
+AQR405(XFI):
+        AQR405:AQ28nm_v2.C.8-AQR_Freescale_LX2QDS-XFI_ID24724_VER1019.cld
+AQR405(USXGMII):
+        AQR405:AQ28nm_v2.C.8-AQR_Freescale_LX2QDS-USXGMII_ID24191_VER997.cld
+
+
+T2080-xxx boards
+----------------
+AQ1202:
+        Firmware_1.37.10_011014_Freescale_T2080PCIe.cld
+
+T1024-RDB boards
+----------------
+AQR105(2.5G SGMII):
+        AQ28nm-FW_2.0.B3_Freescale_T1024RDB_120514.cld
+AQR105(10G XFI):
+        AQ28nm-FW_2.0.B9_Freescale_T1024RDB_012115.cld
+
+Steps to flash firmware on RDB board
+------------------------------------
+1. Download above mentioned Aquantia PHY firmware and the firmware update
+   utility (aq_programming.bin) to tftp location or storage media.
+
+2. Check MACs connected to an Aquantia PHY (LX2160A-RDB example)
+   => mdio list
+   FSL_MDIO0:
+   0 - Cortina CS4223 <--> DPMAC2@xlaui4
+   1 - AR8035 <--> DPMAC17@rgmii-id
+   2 - AR8035 <--> DPMAC18@rgmii-id
+   4 - Aquantia AQR107 <--> DPMAC3@xgmii
+   5 - Aquantia AQR107 <--> DPMAC4@xgmii
+
+3. Execute aq_programming.bin to flash PHY firmware
+   Usage: go 0x80300000 <ETHDEV_NAME> <firmware_address> <firmware_size>
+
+   USB example:
+   usb start;
+   fatload usb 0:1 0x80300000 aq_programming.bin;
+   fatload usb 0:1 0x82000000 AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-XFI_ID24377_VER965.cld;
+   go 0x80300000 DPMAC3@xgmii 0x82000000 $filesize;
+
+   TFTP example:
+   tftp 0x80300000 aq_programming.bin;
+   tftp 0x82000000 AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-XFI_ID24377_VER965.cld;
+   go 0x80300000 DPMAC3@xgmii 0x82000000 $filesize;
+
+4. Notes
+	- Perform the update for all PHYs. In the above examples only MAC3 is
+          updated, but MAC4 is also connected to an Aquantia PHY
+        - For USXGMII a different firmware needs to be programmed. Steps are
+          identical.
+
