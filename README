@@ -14,7 +14,7 @@
 
 |   Board type    | PHY model | Firmware version | System interface |                           Filename                           |
 | :-------------: | :-------: | :--------------: | :--------------: | :----------------------------------------------------------: |
-| **LX2160A-RDB** |  AQR107   |      v3.5.E      |       XFI        | AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-USXGMII_ID24109_VER965.cld |
+| **LX2160A-RDB** |  AQR107   |      v3.5.E      |       XFI        | AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-XFI_ID24377_VER965.cld |
 |                 |           |      v3.5.E      |     USXGMII      | AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-USXGMII_ID24109_VER965.cld |
 | **LX2160A-QDS** |  AQR405   |      v2.C.8      |       XFI        |  AQ28nm_v2.C.8-AQR_Freescale_LX2QDS-XFI_ID24724_VER1019.cld  |
 |                 |           |      v2.C.8      |     USXGMII      | AQR405:AQ28nm_v2.C.8-AQR_Freescale_LX2QDS-USXGMII_ID24191_VER997.cld |
