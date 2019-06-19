@@ -56,7 +56,7 @@ There are different aq_programming binaries working with specific U-boot version
 
    ***5 - Aquantia AQR107 <--> DPMAC4@xgmii****
 
-3. Execute aq_programming_xxx.bin to flash ethernet-phy firmware
+3. Execute aq_programming_xxx.bin to flash ethernet-phy firmware (aq_programming_atf_lsdk1906.bin is used in the following example)
 
    The usage is the following: ***go 0x80300000 <ETHDEV_NAME> <firmware_address> <firmware_size>***
 
@@ -68,7 +68,7 @@ There are different aq_programming binaries working with specific U-boot version
 
    *usb start;*
 
-   *fatload usb 0:1 0x80300000 aq_programming.bin;*
+   *fatload usb 0:1 0x80300000 aq_programming_atf_lsdk1906.bin;*
 
    *fatload usb 0:1 0x82000000 AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-XFI_ID24377_VER965.cld;*
 
@@ -80,7 +80,7 @@ There are different aq_programming binaries working with specific U-boot version
 
    *mdio list;*
 
-   *tftp 0x80300000 aq_programming.bin;*
+   *tftp 0x80300000 aq_programming_atf_lsdk1906.bin;*
 
    *tftp 0x82000000 AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-XFI_ID24377_VER965.cld;*
 
