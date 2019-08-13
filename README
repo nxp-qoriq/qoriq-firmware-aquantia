@@ -21,6 +21,8 @@
 |    **T2080**    |  AQ1202   |     v1.37.10     |                  |       Firmware_1.37.10_011014_Freescale_T2080PCIe.cld        |
 |  **T1024-RDB**  |  AQR105   |     v2.0.B3      |    2.5G SGMII    |        AQ28nm-FW_2.0.B3_Freescale_T1024RDB_120514.cld        |
 |                 |           |     v2.0.B9      |       XFI        |        AQ28nm-FW_2.0.B9_Freescale_T1024RDB_012115.cld        |
+| **LS1028A-QDS** |  AQR112   |      v4.3.C      |                  |     AQR-G3_v4.3.C-AQR_NXP_SPF-30842_ID24155_VER1198.cld      |
+|                 |  AQR412C  |      v4.3.C      |                  |   AQR-G3_v4.3.C-AQR_NXP_SPF-30841_MUSX_ID40019_VER1198.cld   |
 
 
 
