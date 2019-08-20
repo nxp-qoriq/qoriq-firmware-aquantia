@@ -1,0 +1,11 @@
+NXP Software Content Register
+
+--------------------------------------------------------------------------------
+
+Outgoing license:       NXP EULA
+License file name:      EULA.txt
+Description:            The firmware images for the Aquantia PHY devices on NXP
+                        development boards.
+Origin:                 NXP Proprietary
+
+--------------------------------------------------------------------------------
