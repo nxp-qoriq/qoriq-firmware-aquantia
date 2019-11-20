@@ -32,6 +32,7 @@ There are different aq_programming binaries working with specific U-boot version
 
 | LSDK version | U-boot type |            Filename             |
 | :----------: | :---------: | :-----------------------------: |
+|     1909     |     TFA     | aq_programming_atf_lsdk1909.bin |
 |     1906     |     TFA     | aq_programming_atf_lsdk1906.bin |
 |     1903     |     TFA     | aq_programming_atf_lsdk1903.bin |
 |    Older     |     PPA     |     aq_programming_ppa.bin      |
@@ -91,6 +92,8 @@ There are different aq_programming binaries working with specific U-boot version
    *go 0x80300000 DPMAC4@xgmii 0x82000000 $filesize;*
 
 4. Notes
+   LSDK 19.09 version supports a new mode where bus name and phy address can be specified instead of ethernet name:
+   ***go 0x80300000 <BUS_NAME> <PHY_ADDR> <Firmware_address> <Firmware_size>***
 
    The LX2160A-RDB boards are shipped with USXGMII firmware.
 
