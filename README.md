@@ -23,6 +23,7 @@
 |                 |           |     v2.0.B9      |       XFI        |        AQ28nm-FW_2.0.B9_Freescale_T1024RDB_012115.cld        |
 | **LS1028A-QDS** |  AQR112   |      v4.3.C      |                  |     AQR-G3_v4.3.C-AQR_NXP_SPF-30842_ID24155_VER1198.cld      |
 |                 |  AQR412C  |      v4.3.C      |                  |   AQR-G3_v4.3.C-AQR_NXP_SPF-30841_MUSX_ID40019_VER1198.cld   |
+| **LA9358-RDB**  |  AQR112C  |      v4.4.2      |   1G/2.5G SGMII  |  AQR-G3_v4.4.2-AQR_NXP_2500BX_ID44398_VER1511.cld            |
 
 
 
