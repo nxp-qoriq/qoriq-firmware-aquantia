@@ -24,7 +24,7 @@
 | **LS1028A-QDS** |  AQR112   |      v4.3.C      |                  |     AQR-G3_v4.3.C-AQR_NXP_SPF-30842_ID24155_VER1198.cld      |
 |                 |  AQR412C  |      v4.3.C      |                  |   AQR-G3_v4.3.C-AQR_NXP_SPF-30841_MUSX_ID40019_VER1198.cld   |
 | **LA9358-RDB**  |  AQR112C  |      v4.4.2      |   1G/2.5G SGMII  |  AQR-G3_v4.4.2-AQR_NXP_2500BX_ID44398_VER1511.cld            |
-
+| **LA1224-RDB**  |  AQR113C  |      v5.4.6      |      USXGMII     |  AQR-G4_v5.4.6-AQR_NXP_Bonnyrigg_ID44428_VER1533.cld         |
 
 
 ##### Aquantia Firmware Flashing utility
