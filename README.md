@@ -8,23 +8,24 @@
 
 - Steps to upgrade
 
-  
+
 
 ##### For a list of available ethernet-phy firmware files, check out the below table.
 
-|   Board type    | PHY model | Firmware version | System interface |                           Filename                           |
-| :-------------: | :-------: | :--------------: | :--------------: | :----------------------------------------------------------: |
-| **LX2160A-RDB** |  AQR107   |      v3.5.E      |       XFI        | AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-XFI_ID24377_VER965.cld |
-|                 |           |      v3.5.E      |     USXGMII      | AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-USXGMII_ID24109_VER965.cld |
-| **LX2160A-QDS** |  AQR405   |      v2.C.8      |       XFI        |  AQ28nm_v2.C.8-AQR_Freescale_LX2QDS-XFI_ID24724_VER1019.cld  |
-|                 |           |      v2.C.8      |     USXGMII      | AQR405:AQ28nm_v2.C.8-AQR_Freescale_LX2QDS-USXGMII_ID24191_VER997.cld |
-|    **T2080**    |  AQ1202   |     v1.37.10     |                  |       Firmware_1.37.10_011014_Freescale_T2080PCIe.cld        |
-|  **T1024-RDB**  |  AQR105   |     v2.0.B3      |    2.5G SGMII    |        AQ28nm-FW_2.0.B3_Freescale_T1024RDB_120514.cld        |
-|                 |           |     v2.0.B9      |       XFI        |        AQ28nm-FW_2.0.B9_Freescale_T1024RDB_012115.cld        |
-| **LS1028A-QDS** |  AQR112   |      v4.3.C      |                  |     AQR-G3_v4.3.C-AQR_NXP_SPF-30842_ID24155_VER1198.cld      |
-|                 |  AQR412C  |      v4.3.C      |                  |   AQR-G3_v4.3.C-AQR_NXP_SPF-30841_MUSX_ID40019_VER1198.cld   |
-| **LA9358-RDB**  |  AQR112C  |      v4.4.2      |   1G/2.5G SGMII  |  AQR-G3_v4.4.2-AQR_NXP_2500BX_ID44398_VER1511.cld            |
-| **LA1224-RDB**  |  AQR113C  |      v5.4.6      |      USXGMII     |  AQR-G4_v5.4.6-AQR_NXP_Bonnyrigg_ID44428_VER1533.cld         |
+|   Board type          | PHY model | Firmware version | System interface |                           Filename                           |
+| :-------------------: | :-------: | :--------------: | :--------------: | :----------------------------------------------------------: |
+| **LX2160A-RDB**       |  AQR107   |      v3.5.E      |       XFI        | AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-XFI_ID24377_VER965.cld |
+|                       |           |      v3.5.E      |     USXGMII      | AQR-G2_v3.5.E-AQR_Freescale_LX2RDB-USXGMII_ID24109_VER965.cld |
+| **LX2160A-QDS**       |  AQR405   |      v2.C.8      |       XFI        |  AQ28nm_v2.C.8-AQR_Freescale_LX2QDS-XFI_ID24724_VER1019.cld  |
+|                       |           |      v2.C.8      |     USXGMII      | AQR405:AQ28nm_v2.C.8-AQR_Freescale_LX2QDS-USXGMII_ID24191_VER997.cld |
+|    **T2080**          |  AQ1202   |     v1.37.10     |                  |       Firmware_1.37.10_011014_Freescale_T2080PCIe.cld        |
+|  **T1024-RDB**        |  AQR105   |     v2.0.B3      |    2.5G SGMII    |        AQ28nm-FW_2.0.B3_Freescale_T1024RDB_120514.cld        |
+|                       |           |     v2.0.B9      |       XFI        |        AQ28nm-FW_2.0.B9_Freescale_T1024RDB_012115.cld        |
+| **LS1028A-QDS**       |  AQR112   |      v4.3.C      |                  |     AQR-G3_v4.3.C-AQR_NXP_SPF-30842_ID24155_VER1198.cld      |
+|                       |  AQR412C  |      v4.3.C      |                  |   AQR-G3_v4.3.C-AQR_NXP_SPF-30841_MUSX_ID40019_VER1198.cld   |
+| **LA9358-RDB**        |  AQR112C  |      v4.4.2      |   1G/2.5G SGMII  |  AQR-G3_v4.4.2-AQR_NXP_2500BX_ID44398_VER1511.cld            |
+| **LA1224-RDB**        |  AQR113C  |      v5.4.6      |      USXGMII     |  AQR-G4_v5.4.6-AQR_NXP_Bonnyrigg_ID44428_VER1533.cld         |
+| **LS1046A-RDB-revC**  |  AQR113C  |      v5.4.6      |        XFI       |  AQR-G4_v5.4.6-AQR_NXP_Inverness_ID44430_VER1533.cld         |
 
 
 ##### Aquantia Firmware Flashing utility
