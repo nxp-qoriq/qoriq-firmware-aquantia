@@ -26,6 +26,7 @@
 | **LA9358-RDB**        |  AQR112C  |      v4.4.2      |   1G/2.5G SGMII  |  AQR-G3_v4.4.2-AQR_NXP_2500BX_ID44398_VER1511.cld            |
 | **LA1224-RDB**        |  AQR113C  |      v5.4.6      |      USXGMII     |  AQR-G4_v5.4.6-AQR_NXP_Bonnyrigg_ID44428_VER1533.cld         |
 | **LS1046A-RDB-revC**  |  AQR113C  |      v5.4.6      |        XFI       |  AQR-G4_v5.4.6-AQR_NXP_Inverness_ID44430_VER1533.cld         |
+| **LX2160A-RDB-revC**  |  AQR113C  |      v5.4.6      |      USXGMII     |  AQR-G4_v5.4.6-AQR_NXP_Bonnyrigg_ID44428_VER1533.cld         |
 
 
 ##### Aquantia Firmware Flashing utility
